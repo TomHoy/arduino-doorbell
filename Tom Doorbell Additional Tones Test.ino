@@ -12,6 +12,9 @@ User-Definable Variables:
 - buzzerarr: The pin(s) that the hot wire of the buzzer(s) is/are connected to.
 - loopTimeMax: How many times to *play* (not loop) the melody when the button is pressed.
 
+- randNumber: Increase this value if you add more melodies to the program.
+- The various arrays: Add your own melodies to the program in the form of an array outlined below.
+
 */
 
 //Define the notes as their frequencies.
