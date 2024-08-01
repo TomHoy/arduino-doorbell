@@ -117,7 +117,7 @@ int buttonPush;
 // change this to whichever pin you want to use
 int buzzerarr[] = { D7, D8 };
 
-// notes of the moledy followed by the duration.
+// notes of the melody followed by the duration.
 // a 4 means a quarter note, 8 an eighteenth , 16 sixteenth, so on
 // !!negative numbers are used to represent dotted notes,
 // so -4 means a dotted quarter note, that is, a quarter plus an eighteenth!!
