@@ -351,6 +351,7 @@ switch (randNumber) {
         noteDuration *= 1.5; // increases the duration in half for dotted notes
       }
 
+      // This iterates over each buzzer specified in the array, this allows you to have multiple beepers connected and playing the same melody.
       for (int buzzer : buzzerarr) {
         tone(buzzer, melody[thisNote], noteDuration * 0.9);
       }
